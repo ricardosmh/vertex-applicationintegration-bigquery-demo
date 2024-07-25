@@ -97,3 +97,5 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
     --role='roles/integrations.integrationInvoker'
 ```
 
+> [!IMPORTANT]
+> **Temporary Repository:** This repository will be merged into the official [Application Integration Samples Repository](https://github.com/GoogleCloudPlatform/application-integration-samples/tree/main/src/vertex-agents-bigquery)
