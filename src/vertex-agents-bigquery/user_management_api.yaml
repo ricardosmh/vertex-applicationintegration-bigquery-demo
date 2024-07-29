@@ -29,12 +29,12 @@ info:
     url: https://www.apache.org/licenses/LICENSE-2.0.htmlexpand_more
 servers:
   - url: https://integrations.googleapis.com
-    description: Sandbox environment for testing the API.
+    description: Application Integration Google APIs.
 tags:
   - name: Users
     description: Operations related to managing users.
 paths:
-  /v2/projects/nodal-wall-429016-r5/locations/us-central1/integrations/big-query-integration:execute?triggerId=api_trigger/get-user-inventory:
+  "/v2/projects/your-gcp-project/locations/us-central1/integrations/big-query-integration:execute?triggerId=api_trigger/get-user-inventory":
     post:
       tags: 
         - Users
@@ -86,7 +86,7 @@ paths:
                         country_code: "US"
                         state: "CA"
                     total: 150
-  "/v2/projects/nodal-wall-429016-r5/locations/us-central1/integrations/big-query-integration:execute?triggerId=api_trigger/get-user":
+  "/v2/projects/your-gcp-project/locations/us-central1/integrations/big-query-integration:execute?triggerId=api_trigger/get-user":
     post:
       tags:
         - Users
